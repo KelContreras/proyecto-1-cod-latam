@@ -1,4 +1,4 @@
-/* En este archivo escriban su CSS */
+/* En este archivo escriban su CSS */ */
 
 /* Fonts */
 /* Importar aquí la font */
@@ -21,6 +21,11 @@
 body {
     box-sizing: border-box;
     margin: 0;
+    font-size: 26px;
+}
+
+p {
+    margin: 16px 0;
 }
 
 header {
@@ -28,19 +33,16 @@ header {
     width: 100%;
     background-color: #333;
     color: #fff;
-    padding: auto;
+    padding: 20px;
+    height: 40px;
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    box-shadow: 0.4px 10px -5px #cb0909;
+
 }
 
 /* Para quitar los puntos a los items de listas */
-header nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-}
 
 header nav li {
     margin-right: 20px;
@@ -54,6 +56,11 @@ header nav a {
 }
 
 ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 2px 40px;
+    margin: 1px 20px;
     list-style: none;
 }
 
@@ -67,9 +74,11 @@ a {
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
 main {
+    display: block;
     max-width: 1200px;
     margin: auto;
     padding: 20px;
+    justify-content: center;
     text-align: center;
 }
 
@@ -78,26 +87,64 @@ main p {
     line-height: 1.5;
 }
 
-img {
-    display: block;
-    margin: 0 auto;
+.foto-perfil {
+    margin: 4rem 0.5rem;
     width: 100%;
     max-width: 400px;
     border-radius: 100%;
+    object-fit: contain;
 }
 
-.CV{
-
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20 px;
+    text-align: justify;
+    min-height: 25vh;
+    max-width: 800px;
+    padding-top: 50px;
 }
 
-.#enlaces{
-    
+#inicio{
+    justify-content: space-around;
 }
 
+/* .logo-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+} */
+.CV {
+    display: inline-block;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.CV:hover {
+    background-color: #333;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid white;
+    }
+
+
+.iconos {
+    display: flex;
+    justify-content: center;
 }
 
 /* Estilos para el pie de página */
 footer {
+    width: 100%;
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -126,4 +173,3 @@ footer p {
 *  - Paciencia, resiliencia y creatividad! No se desanimen, las primeras experiencias maquetando con HTML y CSS
 *    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
-*/
