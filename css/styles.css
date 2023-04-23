@@ -24,6 +24,8 @@ body {
 }
 
 header {
+    display: flex;
+    width: 100%;
     background-color: #333;
     color: #fff;
     padding: auto;
@@ -52,10 +54,7 @@ header nav a {
 }
 
 ul {
-    display: flex;
     list-style: none;
-    justify-content: end;
-    align-items: center;
 }
 
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
@@ -85,6 +84,16 @@ img {
     width: 100%;
     max-width: 400px;
     border-radius: 100%;
+}
+
+.CV{
+
+}
+
+.#enlaces{
+    
+}
+
 }
 
 /* Estilos para el pie de página */
