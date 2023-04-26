@@ -63,8 +63,9 @@ ul {
     margin: 1px 20px;
     list-style: none;
 }
+/* list-style: none -->Para que los enlaces hereden el color de texto y no tengan subrayado */
 
-/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+
 a {
     text-decoration: none;
     color: inherit;
@@ -93,6 +94,11 @@ main p {
     max-width: 400px;
     border-radius: 100%;
     object-fit: contain;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
 }
 
 section{
